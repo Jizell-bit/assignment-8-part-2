@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: jizell
+          image: jizell/assignment-8-part-2:latest
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
